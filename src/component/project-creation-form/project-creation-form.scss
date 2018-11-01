@@ -1,0 +1,30 @@
+@import '../../sass/variables.scss';
+
+.dashbord-create-form {
+    padding    : 20px 50px;
+    width      : 100%;
+    color      : $fairer-grey;
+    text-align : center;
+}
+
+.text-input {
+    border        : none;
+    border-bottom : solid 1px $darker-grey;
+    color         : $fairer-grey;
+    margin        : 0 5px;
+    background    : transparent;
+    padding       : 5px 10px;
+    width         : 100px;
+    font-size     : 16px;
+    text-align    : right;
+}
+
+.submit-input {
+    display          : block;
+    border           : none;
+    padding          : 15px 40px;
+    font-size        : 16px;
+    background-color : #EDEDED;
+    margin           : 40px auto 0;
+    box-shadow       : 0 2px 10px -1px #00000033;
+}
