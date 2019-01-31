@@ -10,14 +10,14 @@ class ProjectDashboardCreation extends React.Component {
 
         return (
             <div className={'dashbord-create-form'}>
-                <form>
+                <form onSubmit={() => this.createPlan}>
                     I want to have
-                    <input className={'creation-form--input text-input'} type={'number'} value={10000}/>
+                    <input className={'creation-form--input text-input'} type={'number'} defaultValue={10000}/>
                     € in
-                    <input className={'creation-form--input text-input'} type={'number'} value={24}/>
+                    <input className={'creation-form--input text-input'} type={'number'} defaultValue={24}/>
                     month.
                     I already have
-                    <input className={'creation-form--input text-input'} type={'number'} value={2000}/>
+                    <input className={'creation-form--input text-input'} type={'number'} defaultValue={2000}/>
                     €.
                     <button className={'creation-form--input submit-input'}>
                         Create a plan for me.
@@ -25,6 +25,10 @@ class ProjectDashboardCreation extends React.Component {
                 </form>
             </div>
         );
+    }
+
+    createPlan(plan) {
+        console.log(plan);
     }
 }
 

@@ -8,15 +8,14 @@
 }
 
 .text-input {
-    border        : none;
-    border-bottom : solid 1px $darker-grey;
-    color         : $fairer-grey;
-    margin        : 0 5px;
-    background    : transparent;
-    padding       : 5px 10px;
-    width         : 100px;
-    font-size     : 16px;
-    text-align    : right;
+    border     : solid 1px $the-fairest-grey;
+    color      : $fairer-grey;
+    margin     : 0 5px;
+    background : transparent;
+    padding    : 5px 10px;
+    width      : 100px;
+    font-size  : 16px;
+    text-align : right;
 }
 
 .submit-input {
